@@ -1,0 +1,532 @@
+
+
+/* Header css starts here */
+
+
+.logo {
+  color: red !important;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+  .dropdown {
+    margin-left: 400px;
+  }
+  #basic-nav-dropdown {
+    color: white;
+  }
+  .nav_link {
+    color: rgb(12, 9, 194) !important;
+    margin-left: 160px;
+  }
+  .nav_link:hover {
+    color: red !important;
+  }
+  .nav_link_2 {
+    color: rgb(12, 9, 194) !important;
+  }
+  .user_image {
+    width: 40px;
+    position: absolute;
+    margin-left: 890px;
+  }
+  .nav_link_2:hover {
+    color: red !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .user_image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav_link_2:hover {
+    color: white !important;
+  }
+  .nav_link:hover {
+    color: white !important;
+  }
+}
+.nav_dropdown {
+  color: red !important;
+}
+.background_image {
+  background-image: url("C:\Users\LENOVO\OneDrive\Desktop\eatiz\eatiz\public\assets\top-background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading {
+  width: 39%;
+  color: rgb(12, 9, 194);
+  font-weight: bold;
+  padding-top: 150px;
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+    width: auto;
+    color: red;
+    font-weight: bold;
+    padding-top: 30px;
+   
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    color: white !important;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .nav_background {
+    background-color: red;
+  }
+}
+input[type="text"] {
+  width: 38%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  text-decoration: none;
+  box-shadow: 5px 5px 25px rgb(187, 184, 184);
+}
+@media only screen and (max-width: 600px) {
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgb(187, 184, 184);
+  }
+}
+.search_btn {
+  background-color: red;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px 0px 0px 0px;
+  position: absolute;
+  margin-left: -84px;
+  margin-top: 11px;
+  padding: 10px 30px;
+}
+.dish_image {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -300px;
+}
+.location_btn {
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 32px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0px 50px 50px 0px;
+  margin-left: -130px;
+  margin-top: 11px;
+  padding-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .location_btn {
+    margin-left: -30px !important;
+    margin-top: 230px;
+  }
+  .loc_img {
+    position: absolute;
+    width: 30px;
+    margin-left: -145px;
+    margin-top: 237px !important;
+  }
+  .dish_image {
+    position: absolute;
+    margin-left: -26px !important;
+    margin-top: 40px;
+    width: 390px;
+  }
+  .dot_backround {
+    position: absolute;
+    margin-left: 20px !important;
+    margin-top: 30px !important;
+    width: 300px !important;
+    opacity: 0.05;
+  }
+}
+.dot_backround {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -300px;
+  width: 370px;
+  opacity: 0.05;
+}
+.loc_img {
+  position: absolute;
+  width: 30px;
+  margin-left: -145px;
+  margin-top: 17px;
+}
+
+
+/* Midcontent1 CSS starts here */
+@media only screen and (max-width: 600px) {
+  .services {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column !important;
+    width: 0rem !important;
+    margin-left: -0% !important;
+    margin-bottom: 10%;
+  }
+  .ourservice {
+    width: 200px !important;
+    margin-right: 15%;
+    font-size: 2rem !important;
+  }
+  .ser_para {
+    text-align: left;
+    width: 350px;
+  }
+}
+.services {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  width: 70rem;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .underline {
+    width: 10rem;
+    background-color: red;
+    color: red;
+    padding: 2px;
+    margin-bottom: 15px;
+  }
+}
+
+
+.serv {
+  background-color: red;
+  width: 3rem;
+  margin-right: 4%;
+  margin-left: 6%;
+}
+.ourservice {
+  margin-right: 15%;
+  font-size: 3rem;
+  color: rgb(12, 9, 194);
+}
+
+/* Midcontent2 CSS starts here */
+
+.restro_img_container {
+  background-color: #FFEDDE; 
+  padding: 80px;
+  margin-left: 1.5rem;
+}
+.mid_sec_container {
+  margin-top: 220px !important;
+  margin-bottom: 30%;
+  }
+  @media only screen and (max-width: 600px) {
+    .mid_sec_container {
+      margin-top: 100px !important;
+      margin-bottom: 90%;
+      }
+      .restro_img_container {
+        background-color: #FFEDDE; 
+        padding: 80px;
+        margin-left: 6rem;
+      }
+      .restro_content1 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 89px !important;
+        margin-left: 0px !important;
+      }
+      .restro_h3 {
+        color: rgb(12, 9, 194);
+        width: 252px !important;
+      }
+      .restro_content2 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 270px !important;
+        margin-left: 330px !important;
+      }
+      .restro_dish_img {
+        background-color: #FFEDDE; 
+        padding: 80px;
+        margin-left: 0.2rem !important;
+      }
+      .restro_dish_container {
+        margin-top: 280px !important;
+      }
+      .restro_bike_container {
+        margin-top: 290px !important;
+        margin-left: -780px !important;
+      }
+      .restro_content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: -420px !important;
+      }
+      .restro_third_h3 {
+        text-align: center;
+        color: rgb(12, 9, 194);
+        width: 250px;
+        margin-top: 100px;
+        margin-left: 468px !important;
+      }
+      .bike_p {
+        margin-left: 468px !important;
+        width: 250px;
+        text-align: center;
+      }
+      .restro_sec_h3 {
+        color: rgb(12, 9, 194);
+        width: 200px;
+        margin-top: 200px;
+        margin-left: -190px !important;
+      }
+      .restro_p {
+        margin-right: 25px;
+        text-align: right;
+        margin-left: -255px !important;
+      }
+  }
+  .restro_content1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 350px;
+  }
+  .restro_content2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 350px;
+  }
+
+.restro_content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 350px;
+}
+.restro_h3 {
+  color: rgb(12, 9, 194);
+  width: 200px;
+}
+.restro_sec_h3 {
+  color: rgb(12, 9, 194);
+  width: 200px;
+  margin-top: 200px;
+  margin-left: -330px;
+}
+.restro_p {
+  margin-left: -330px;
+}
+.restro_dish_img {
+  background-color: #FFEDDE; 
+  padding: 80px;
+  margin-left: 29.9rem;
+}
+.restro_dish_container {
+  margin-top: 100px;
+}
+.restro_bike_img {
+  background-color: #FFEDDE; 
+  padding: 120px;
+  padding-bottom: 245px;
+  margin-left: 47rem;
+}
+.bike_img {
+  margin-top: 0px;
+}
+.restro_bike_container {
+  margin-top: -290px;
+}
+.restro_third_h3 {
+  color: rgb(12, 9, 194);
+  width: 250px;
+  margin-top: 100px;
+  margin-left: 490px;
+}
+.bike_p {
+  margin-left: 484px;
+  width: 250px;
+  text-align: center;
+}
+
+/* Footer CSS starts here */
+.head{
+  font-size: 3rem;
+  width: 30rem;
+  margin-left: 4rem;
+  margin-right: 15%;
+  color: rgb(12, 9, 194);
+           
+}
+.footer_container{
+  background-color: #FFEDDE; 
+}
+.applogo{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 75rem;
+  margin-left: 8%;
+  height: 40rem;
+  padding-top: 15%;
+}
+
+.applogo1{
+  width: 1rem;
+  background-color: red;
+  margin-left: 2%;
+
+}
+.mob{
+  max-width: 25rem;
+  position: absolute;
+  left: 59%;
+  top: 270%;
+}
+.button{
+  width: 8rem;
+  margin-left: 14rem;
+  margin-top: -20rem;
+  margin-bottom: 0%;;
+  margin-right: 0%;
+}
+.button1{
+  width: 10rem;
+  margin-left: 12rem;
+  margin-top: -20rem;
+  margin-bottom: 0%;
+  margin-right: 0%;
+}
+@media only screen and (max-width: 600px) {
+  .foot-para{
+    font-size: 15px;
+    position: absolute;
+    left: -10%;
+   margin-top: 20%;
+   width: 100px;
+  }
+  .head{
+    font-size: 25px;
+    width: 200px;
+   margin-left: 100%
+  }
+  .button{
+    width: 8rem;
+    margin-left: 12rem;
+    margin-top: -35rem;
+  }
+  .button1{
+    width: 8rem;
+    margin-left: 12rem;
+    margin-top: -40rem;
+    margin-bottom: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media only screen
+and (device-width: 320px) 
+and (device-height: 569px){
+  
+  .foot-para{
+    font-size: 15px;
+    position: absolute;
+    left: -23%;
+   margin-top: 20%;
+   width: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .applogo{
+    width: 15rem;
+    height: 27rem;
+   
+   
+  }
+  .restro_bike_img {
+    background-color: #FFEDDE; 
+    padding: 128px;
+    padding-bottom: 245px;
+    margin-left: 47rem;
+  }
+  .mob{
+    display: none;
+  }
+  .button1{
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: -20rem;
+    margin-bottom: 0%;
+    margin-right: 0%;
+  }
+  .button{
+    width: 18rem;
+    margin-left: 3rem;
+    margin-top: -10rem;
+    margin-bottom: 0%;
+    margin-right: 0%;
+  }
+ .footer_container{
+  height: 30rem;
+ }
+
+ .foot-para{
+  font-size: 15px;
+  position: absolute;
+
+ margin-top: 25%;
+ width: 100px;
+}
+}
+
+
+
+
+
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 1, 1); 
+} 
